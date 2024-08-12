@@ -1,0 +1,25 @@
+{
+    "name": "codeceptjs-tests",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "test": "codeceptjs run --steps",
+        "test-pause": "codeceptjs run --steps -p pauseOnFail"
+    },
+    "devDependencies": {
+        "@codeceptjs/configure": "^1.0.1",
+        "@codeceptjs/examples": "^1.2.4",
+        "@codeceptjs/ui": "^1.2.0",
+        "@types/node": "^22.1.0",
+        "codeceptjs": "^3.6.5",
+        "playwright": "^1.46.0",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.5.4"
+    },
+    "dependencies": {
+        "dotenv": "^16.4.5",
+        "eslint": "^9.9.0",
+        "tslint": "^6.1.3",
+        "yarn": "^1.22.22"
+    }
+}
